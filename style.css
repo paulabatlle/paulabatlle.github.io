@@ -82,6 +82,25 @@ padding: 10%;
     color:#423434;
     margin-bottom: 2em;
 }
+
+/*--PROYECTOS HOME--*/
+.background-pojects{
+	z-index: -1;
+} 
+
+/*--INCANSABLES--*/
+.project{
+	display: block;
+	position: relative;	
+	margin-left: 10em;
+	margin-bottom: 10em;
+	margin-top: 8em;
+}
+
+
+
+
+
 /* cursor*/
 html{
     cursor: url(/img/cursor.svg), default;
