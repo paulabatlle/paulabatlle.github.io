@@ -22,6 +22,7 @@ box-sizing: border-box;
 
 body {
     font-family: 'Graphik', sans-serif;
+    background-color: #E9FDFD;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h1 {
 }
 
 h2{
-    font-family: 'Trash Medium';
+    font-family: 'Trash';
     font-size: 5em;
     margin-top: 2.5em;
     text-align: center;
@@ -66,6 +67,21 @@ background-color: #FF7772;
 padding: 10%;
 }
 
+.calltoaction{
+	width: 10em;
+	float: right;
+	margin-top:2em;
+	margin-right: 3em;
+}
+
+.frase{
+    font-family: 'Trash';
+    font-size: 4em;
+    margin-top: 2.5em;
+    text-align: center;
+    color:#423434;
+    margin-bottom: 2em;
+}
 /* cursor*/
 html{
     cursor: url(/img/cursor.svg), default;
@@ -146,5 +162,13 @@ a{
 @media (max-width: 576px){
     h1 {
         font-size: 3em;
+    }
+    .calltoaction{
+        width: 7em;
+        margin-top:2em;
+        margin-right: 3em;
+    }
+    .frase{
+        font-size: 2em;
     }
 }
