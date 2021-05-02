@@ -35,10 +35,37 @@ ul {
     justify-content: space-evenly;
 }
 
+.bg-primary{
+background-color: #FF7772;
+padding: 10%;
+}
 /* cursor*/
 html{
-    cursor: url(/img/cursor.svg), default;)
+    cursor: url(/img/cursor.svg), default;
 }
+
+
+/*--FOOTER--*/
+.footer{
+	margin-right: 3em;
+}
+.footer-email{
+	margin-right: 0.8em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+  	width: 2em;
+}
+
+.social-links{
+	float: right;
+}
+
+.social-icon{
+	size: 1em;
+	margin-right: 0.8em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+  	width: 2em;}
 
 /* @media (min-width: 600px) and (max-width: 800px){
     h1 {
