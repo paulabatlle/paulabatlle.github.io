@@ -6,15 +6,41 @@
 box-sizing: border-box;
 }
 
+/*--TIPOGRAFIA trash-- */
+@font-face{
+	font-family: "Trash";
+	src: url(../assets/trash/trashregular-webfont.woff)}
+
+@font-face{
+	font-family: "Trash Medium";
+	src: url(../assets/trash/trash-medium-webfont.woff)}
+
+@font-face{
+	font-family: "Trash Bold";
+	src: url(../assets/trash/trash-bold-webfont.woff)}
+
 
 body {
-    font-family: 'Trash', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 h1 {
-    font-size: 6em;
+    font-family: 'Trash';
+    font-size: 4em;
     text-align: center;
-    color:black;
+    color:#FF7772;
+}
+
+h2{
+    font-family: 'Trash Medium';
+    font-size: 5em;
+    margin-top: 2.5em;
+    text-align: center;
+    color:#423434;
+}
+
+p{
+   font-family:'Graphik';
 }
 nav {
     font-size: 1.5em;
@@ -39,6 +65,7 @@ ul {
 background-color: #FF7772;
 padding: 10%;
 }
+
 /* cursor*/
 html{
     cursor: url(/img/cursor.svg), default;
