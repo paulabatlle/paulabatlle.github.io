@@ -44,6 +44,11 @@ html{
     cursor: url(/img/cursor.svg), default;
 }
 
+a{	
+	color: #423434;
+	font-family: 'Trash Medium', 'Montserrat', sans-serif;
+	text-decoration: none;
+	outline-color:#FF7772;}
 
 /*--FOOTER--*/
 .footer{
