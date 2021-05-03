@@ -80,6 +80,8 @@ ul {
   justify-content: space-between;
 }
 
+/* --------------------------- Menu ----------------------------------- */
+
 .menu-item {
   padding: 0 1rem;
 }
@@ -101,6 +103,12 @@ ul {
 
 .menu-close {
   display: none;
+  float: right;
+  background: inherit;
+  border: 0;
+  color: inherit;
+  overflow: hidden;
+  outline: none
 }
 
 .menu-is-open .menu-open {
@@ -137,8 +145,6 @@ background-color: #FF7772;
     margin-bottom: 2em;
 }
 
-
-
   
 /*--PROYECTOS HOME--*/
 .background-pojects{
@@ -152,8 +158,8 @@ background-color: #FF7772;
 	margin-left: 3em;
 	margin-bottom: 4em;
 	margin-top: 2em;
-    font-size: 2.5em;
-   color: #E9FDFD;
+  font-size: 2.5em;
+  color: #E9FDFD;
 }
 
 
@@ -166,6 +172,7 @@ background-color: #FF7772;
 	opacity: 0;
 	z-index: 1;
 }
+
 
 
 /*---- IMG HOVER PROJECTS------*/
@@ -227,38 +234,13 @@ a{
 	margin-bottom: 1em;
   	width: 2em;}
 
-/* --------------------------- End Accordion ------------------------------- */
 
-li:last-child {
-  color: green;
-}
 
-.popup {
-  background: white;
-  border: 4px solid black;
-  padding: 4rem;
-  position: absolute;
-  top: 5rem;
-  left: 120%;
-  max-width: 60rem;
-  transition: all 0.8s ease-in-out;
-}
-
-.popup.open {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* @media (orientation: landscape) {
- body {
-     background-color: magenta;
- }
-} */
-/* 640px - 1px */
+/* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
 @media (max-width: 39.9375em) {
     .nav {
       align-items: center;
-      background: lightpink;
+      background: #E9FDFD;
       display: flex;
       height: 100vh;
       justify-content: center;
@@ -269,6 +251,7 @@ li:last-child {
       width: 100%;
       z-index: 9;
     }
+  
   
     .menu-is-open .nav {
       top: 0;
@@ -300,8 +283,7 @@ li:last-child {
         margin-right: 3em;}
 
     .frase{
-        font-size: 2em;}
-
-
+        font-size: 2em;
+        align-content: center;}
 
 }
