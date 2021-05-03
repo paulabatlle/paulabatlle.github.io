@@ -43,11 +43,15 @@ h2{
 
 p{
    font-family:'Graphik';
+   margin-left: 5em;
+   font-size: 1em;
+   color: #423434;
 }
 nav {
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
+    color: #423434;
 }
 
 
@@ -223,31 +227,6 @@ a{
 	margin-bottom: 1em;
   	width: 2em;}
 
-/* @media (min-width: 600px) and (max-width: 800px){
-    h1 {
-        color: purple;
-    }
-} */
-
-
-/* @media (max-width: 1500px){
-    h1 {
-        color: yellow;
-    }
-}
-
-@media (max-width: 1000px){
-    h1 {
-        color: orange;
-    }
-}
-@media (max-width: 500px){
-    h1 {
-        color: red;
-    }
-} */
-
-
 
 
 /* @media (orientation: landscape) {
@@ -291,6 +270,8 @@ a{
 }
 @media (max-width: 576px){
     h1 {
+        font-size: 2em;}
+    h2 {
         font-size: 3em;}
 
     .calltoaction{
