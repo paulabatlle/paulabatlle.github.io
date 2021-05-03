@@ -234,7 +234,9 @@ a{
 	margin-bottom: 1em;
   	width: 2em;}
 
-
+    .frase{
+      font-size: 4em;
+      align-content: center;}
 
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
 @media (max-width: 39.9375em) {
