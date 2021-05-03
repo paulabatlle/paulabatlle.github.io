@@ -243,7 +243,6 @@ a{
     .nav {
       align-items: center;
       background: #E9FDFD;
-      display: flex;
       height: 100vh;
       justify-content: center;
       left: 0;
