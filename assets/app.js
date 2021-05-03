@@ -44,7 +44,7 @@ $(document).ready(function () {
             infinite: true,
             dots: true
           }
-        }
+        },
         {
           breakpoint: 600,
           settings: {
