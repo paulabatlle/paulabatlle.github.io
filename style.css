@@ -63,6 +63,56 @@ ul {
     justify-content: space-evenly;
 }
 
+
+/* --------------------------- Header ----------------------------------- */
+
+.header,
+.menu {
+  align-items: center;
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.menu-item {
+  padding: 0 1rem;
+}
+
+.menu-link:hover {
+  color: #FF7772;
+}
+
+.menu-trigger {
+  padding: 0.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.menu-trigger svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.menu-close {
+  display: none;
+}
+
+.menu-is-open .menu-open {
+  display: none;
+}
+
+.menu-is-open .menu-close {
+  display: block;
+}
+
+.logo {
+  position: relative;
+  z-index: 10;
+}
+
+
 .bg-primary{
 background-color: #FF7772;
 }
@@ -83,6 +133,9 @@ background-color: #FF7772;
     margin-bottom: 2em;
 }
 
+
+
+  
 /*--PROYECTOS HOME--*/
 .background-pojects{
 	z-index: -1;
@@ -202,15 +255,37 @@ a{
      background-color: magenta;
  }
 } */
-
+/* 640px - 1px */
+@media (max-width: 39.9375em) {
+    .nav {
+      align-items: center;
+      background: lightpink;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      left: 0;
+      position: fixed;
+      top: -150%;
+      transition: all 0.3s ease-in-out;
+      width: 100%;
+      z-index: 9;
+    }
+  
+    .menu-is-open .nav {
+      top: 0;
+    }
+  }
+  
+  @media (min-width: 40em) {
+    .menu-trigger {
+      display: none;
+    }
+  }
 
 @media (max-width: 768px){
     h1 {
         font-size: 4em;
-    }
-    nav, nav ul {
-        flex-direction: column;
-        align-items: center;
+    
     }
   
 }
@@ -226,9 +301,6 @@ a{
     .frase{
         font-size: 2em;}
 
-    .project{
-
-    }
 
 
 }
