@@ -65,6 +65,7 @@ ul {
     max-width: 50%;
     display: flex;
     justify-content: space-evenly;
+    flex-direction:column;
 }
 
 
@@ -112,7 +113,8 @@ ul {
   border: 0;
   color: inherit;
   overflow: hidden;
-  outline: none
+  outline: none;
+  
 }
 
 .menu-is-open .menu-open {
@@ -121,6 +123,7 @@ ul {
 
 .menu-is-open .menu-close {
   display: block;
+  
 }
 
 .logo {
@@ -183,7 +186,7 @@ ul {
 
 .fotosproyecto{
 	max-width: 25em;
-    width: 15em;
+  width: 15em;
 	float: right;
 	justify-content: right;
 	position: static;
@@ -287,9 +290,9 @@ a{
 	margin-bottom: 1em;
   	width: 2em;}
 
-    .frase{
-      font-size: 4em;
-      align-content: center;}
+  .frase{
+  font-size: 4em;
+  align-content: center;}
 
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
 @media (max-width: 39.9375em) {
@@ -304,6 +307,7 @@ a{
       transition: all 0.3s ease-in-out;
       width: 100%;
       z-index: 9;
+   
     }
   
   
