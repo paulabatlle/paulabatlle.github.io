@@ -35,10 +35,10 @@ h1{
 }
 
 p{
-   font-family:'Graphik';
+   font-family:'Graphik Light';
    margin-left: 5em;
    font-size: 1em;
-   color: #423434;
+   color: #E9FDFD;
 }
 nav {
     font-size: 1.5em;
@@ -119,6 +119,8 @@ ul {
 .logo {
   position: relative;
   z-index: 10;
+  width: 2em;
+  margin-left:1em;
 }
 
 
@@ -303,6 +305,11 @@ a{
       width: 100%;
       z-index: 9;
     }
+
+  .logo{
+    width: 1.2em;
+    margin-left: 0.8em;
+  }
 
   ul{
     flex-direction:column;
