@@ -22,7 +22,7 @@ box-sizing: border-box;
 
 body {
     font-family: 'Graphik', sans-serif;
-    background-color: #000;
+    background-color: #FF7772;
 }
 
 
@@ -80,6 +80,9 @@ ul {
   padding: 0 1rem;
 }
 
+.menu-link{
+  color: #E9FDFD;
+}
 
 .menu-link:hover {
   color: #FF7772;
@@ -256,7 +259,7 @@ html{
 }
 
 a{	
-	color:#E9FDFD;;
+	color:#000;;
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
 	text-decoration: none;
 	outline-color:#FF7772;}
@@ -313,7 +316,10 @@ a{
 
   ul{
     flex-direction:column;
-
+  }
+  
+  .menu-link{
+    color:#000;
   }
   
     .menu-is-open .nav {
