@@ -318,6 +318,15 @@ a{
 	margin-bottom: 1em;
   width: 2em;}
 
+  .frasefinal{
+    align-items: center;
+    align-items: center;
+  }
+
+  .imgfrase{
+    width: 5em;
+  }
+
   .frase{
   font-size: 4em;
   align-content: center;
