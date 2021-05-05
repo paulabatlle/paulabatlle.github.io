@@ -48,9 +48,14 @@ nav {
     color: #423434;
 }
 
-.taggs{
-  justify-content: center;
-  align-items: center;
+.taggs1{
+  text-align: center;
+  margin-top:6em;
+}
+
+.taggs2{
+  text-align: center;
+  margin-top:1em;
 }
 
 ul,li {
