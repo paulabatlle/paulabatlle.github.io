@@ -26,6 +26,16 @@ body {
 }
 
 
+/* cursor*/
+body{
+  cursor: url("/img/cursor2.svg");
+}
+
+html{
+    cursor: url("/img/cursor2.svg"), default;
+}
+
+
 h1{
     font-family: 'Trash';
     font-size: 7.5em;
@@ -180,7 +190,7 @@ ul {
 .bg-primary{
   background-color: #E9FDFD;
   margin-top:3em;
-  padding:10%;
+  padding: 10%;
 }
 
 /*---- IMG HOVER PROJECTS------*/
@@ -267,16 +277,6 @@ button::-moz-focus-inner {
 }
 
 
-/* cursor*/
-body{
-  cursor: url("/img/cursor2.svg");
-}
-
-html{
-    cursor: url("/img/cursor2.svg"), default;
-}
-
-
 a{	
 	color:#423434;;
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
@@ -298,6 +298,8 @@ a{
 
 .social-links{
 	float: right;
+  background-color: #E9FDFD;
+
 }
 
 .bg-container{
@@ -309,7 +311,8 @@ a{
 	margin-right: 0.8em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-  width: 2em;}
+  width: 2em;
+  }
 
 .frasefinal{
   display:block;
@@ -337,7 +340,6 @@ a{
   margin-bottom:2em;
   margin-top: 1em;}
 
-  
 
 
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
@@ -402,6 +404,10 @@ top: 0;
       left: 10%;
     }
 
+  /*--intento parallax--*/
+    .parallax {
+      background-attachment: scroll;
+    }
 
 .frase2{
   font-size: 1.7em;
