@@ -95,7 +95,7 @@ ul {
 }
 
 .menu-link:hover {
-  color: #423434;
+  color: #000;
 }
 
 .menu-trigger {
@@ -117,7 +117,6 @@ ul {
   color: inherit;
   overflow: hidden;
   outline: none;
-  
 }
 
 .menu-is-open .menu-open {
@@ -126,8 +125,7 @@ ul {
 
 .menu-is-open .menu-close {
   display: block;
-  
-}
+  }
 
 .logo {
   position: relative;
@@ -272,13 +270,14 @@ button::-moz-focus-inner {
 
 
 /* cursor*/
-#body{
+body{
   cursor: url("/img/cursor2.svg");
 }
 
 html{
-    cursor: url(/img/cursor2.svg), default;
+    cursor: url("/img/cursor2.svg"), default;
 }
+
 
 a{	
 	color:#000;;
@@ -286,6 +285,7 @@ a{
 	text-decoration: none;
 	outline-color:#FF7772;}
   
+
 /*--FOOTER--*/
 .footer{
 	margin-right: 3em;
@@ -316,7 +316,7 @@ a{
 
   .imgfrase {
     display: block;
-    margin: 2em auto 0;
+    margin: 6em auto 0;
     width: 8em;
  }
 
@@ -331,9 +331,10 @@ a{
     color:#E9FDFD;
     text-align: center;
     flex-direction: column;
-    margin-bottom:2em;}
+    margin-bottom:2em;
+    margin-top: 1em;}
 
-  .bg-container{
+  .container{
     background-color: #E9FDFD;
   }
 
@@ -377,7 +378,7 @@ top: 0;
   }
 
 
-  @media (min-width: 40em) {
+@media (min-width: 40em) {
     .menu-trigger {
       display: none;
     }
@@ -385,7 +386,7 @@ top: 0;
   
 @media (max-width: 768px){
     h1 {
-        font-size: 3em;
+        font-size: 4.2em;
         margin-top: 2em;
     }
     .project{
@@ -400,6 +401,12 @@ top: 0;
       max-width: 5em;
       left: 10%;
     }
+
+
+.frase2{
+  font-size: 1.7em;
+  margin-top: 2em;
+}
 
 }
 @media (max-width: 576px){
