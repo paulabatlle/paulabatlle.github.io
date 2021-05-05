@@ -160,7 +160,16 @@ ul {
   font-size: 2.8em;
   color: #423434;
 }
-
+.subtitulo-project{
+  font-family:'Trash';
+  font-size: 0.7em;
+  display: block;
+	position: relative;	
+	margin-left: 3em;
+	margin-bottom: 4em;
+	margin-top: 0.5em;
+  color: #423434;
+}
 
 .project-photo{
 	position: absolute;
@@ -300,24 +309,23 @@ a{
   width: 2em;}
 
   .frasefinal{
-    align-items: center;
-    align-items: center;
-  }
-
-  .imgfrase{
-    width: 5em;
     flex-direction: column;
   }
 
+  .imgfrase{
+    margin-top: 2em;
+    width: 8em;
+  }
+
   .imgfrase1{
-    width: 10em;
+    margin-top: 8em;
+    width: 5em;
   }
 
   .frase{
   font-family: 'Trash';
   font-size: 4em;
   color:#E9FDFD;
-  text-align: center;
   margin-left: 2em;
   margin-bottom:2em;}
 
@@ -370,7 +378,8 @@ top: 0;
   
 @media (max-width: 768px){
     h1 {
-        font-size: 4em;
+        font-size: 3em;
+        margin-top: 2em;
     }
     .project{
       font-size:1.3em;
@@ -378,20 +387,21 @@ top: 0;
     .project-photo{
       max-width: 11em;
     }
+    .project-photo{
+      position: absolute;
+      top: -30%;
+      max-width: 5em;
+      left: 10%;
+    }
+
 }
 @media (max-width: 576px){
-    h1 {
-        font-size: 2em;}
-    h2 {
-        font-size: 3em;}
 
     .calltoaction{
         width: 7em;
         margin-top:2em;
         margin-right: 3em;}
 
-    .frase{
-        font-size: 1.9em;
-        align-content: center;}
+
 
 }
