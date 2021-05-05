@@ -311,6 +311,7 @@ a{
   .frasefinal{
   display:block;
   flex-direction: column;
+  text-align:center;
   }
 
   .imgfrase{
@@ -323,11 +324,11 @@ a{
     width: 5em;
   }
 
-  .frase{
+  .frase2{
   font-family: 'Trash';
   font-size: 4em;
   color:#E9FDFD;
-  margin-left: 2em;
+  text-align: center;
   margin-bottom:2em;}
 
   .bg-container{
