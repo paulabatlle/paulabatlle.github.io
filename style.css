@@ -95,7 +95,7 @@ ul {
 }
 
 .menu-link:hover {
-  color: #FF7772;
+  color: #423434;
 }
 
 .menu-trigger {
@@ -371,7 +371,10 @@ ul{
 top: 0;
   }
   }
-  
+
+.menu-link:hover {
+    color: #FF7772;
+  }
 
 
   @media (min-width: 40em) {
