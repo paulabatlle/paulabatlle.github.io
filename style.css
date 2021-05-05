@@ -36,7 +36,6 @@ h1{
 
 p{
    font-family:'Graphik Light';
-   
    font-size: 1em;
    color: #E9FDFD;
 }
@@ -45,7 +44,6 @@ nav {
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
-    color: #423434;
 }
 
 .taggs1{
@@ -95,7 +93,7 @@ ul {
 }
 
 .menu-link:hover {
-  color: #000;
+  color: #FF7772;
 }
 
 .menu-trigger {
@@ -280,7 +278,7 @@ html{
 
 
 a{	
-	color:#000;;
+	color:#423434;;
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
 	text-decoration: none;
 	outline-color:#FF7772;}
@@ -290,15 +288,20 @@ a{
 .footer{
 	margin-right: 3em;
 }
+
 .footer-email{
 	margin-right: 0.8em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-  	width: 2em;
+  width: 2em;
 }
 
 .social-links{
 	float: right;
+}
+
+.bg-container{
+  background-color: #E9FDFD;
 }
 
 .social-icon{
@@ -308,36 +311,33 @@ a{
 	margin-bottom: 1em;
   width: 2em;}
 
-  .frasefinal{
+.frasefinal{
   display:block;
   flex-direction: column;
   text-align:center;
   }
 
-  .imgfrase {
-    display: block;
-    margin: 6em auto 0;
-    width: 8em;
+.imgfrase {
+  display: block;
+  margin: 6em auto 0;
+  width: 8em;
  }
 
-  .imgfrase1{
-    margin-top: 8em;
-    width: 5em;
+.imgfrase1{
+  margin-top: 8em;
+  width: 5em;
   }
 
-  .frase2{
-    font-family: 'Trash';
-    font-size: 3em;
-    color:#E9FDFD;
-    text-align: center;
-    flex-direction: column;
-    margin-bottom:2em;
-    margin-top: 1em;}
+.frase2{
+  font-family: 'Trash';
+  font-size: 3em;
+  color:#E9FDFD;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom:2em;
+  margin-top: 1em;}
 
-  .container{
-    background-color: #E9FDFD;
-  }
-
+  
 
 
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
