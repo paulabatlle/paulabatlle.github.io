@@ -309,7 +309,8 @@ a{
   width: 2em;}
 
   .frasefinal{
-    flex-direction: column;
+  display:block;
+  flex-direction: column;
   }
 
   .imgfrase{
