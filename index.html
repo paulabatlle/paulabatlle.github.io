@@ -112,6 +112,17 @@
 </section>
 </footer>
 
+<script>
+    // When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+    
+function myFunction() {
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
 integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="

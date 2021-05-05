@@ -271,7 +271,7 @@ button::-moz-focus-inner {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background: #04AA6D;
+  background: #423434;
   width: 0%;
 }
 
