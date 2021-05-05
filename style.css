@@ -28,7 +28,7 @@ body {
 
 h1{
     font-family: 'Trash';
-    font-size: 5em;
+    font-size: 7.5em;
     margin-top: 2.5em;
     text-align: center;
     color:#E9FDFD;
@@ -40,6 +40,7 @@ p{
    font-size: 1em;
    color: #E9FDFD;
 }
+
 nav {
     font-size: 1.5em;
     display: flex;
@@ -47,6 +48,10 @@ nav {
     color: #423434;
 }
 
+.taggs{
+  justify-content: center;
+  align-items: center;
+}
 
 ul,li {
     display: inline;
@@ -315,7 +320,8 @@ a{
 
   .frase{
   font-size: 4em;
-  align-content: center;}
+  align-content: center;
+  align-items: center;}
 
   .bg-container{
     background-color: #E9FDFD;
