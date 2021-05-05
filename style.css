@@ -36,7 +36,7 @@ h1{
 
 p{
    font-family:'Graphik Light';
-   margin-left: 5em;
+   
    font-size: 1em;
    color: #E9FDFD;
 }
@@ -326,11 +326,12 @@ a{
   }
 
   .frase2{
-  font-family: 'Trash';
-  font-size: 2em;
-  color:#E9FDFD;
-  text-align: center;
-  margin-bottom:2em;}
+    font-family: 'Trash';
+    font-size: 3em;
+    color:#E9FDFD;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom:2em;}
 
   .bg-container{
     background-color: #E9FDFD;
