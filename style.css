@@ -169,12 +169,18 @@ color:#423434;
 
 
 .calltoaction{
-	width: 5%;
+	width: 15%;
 	float: right;
 	margin-top:2em;
 	margin-right: 3em;
 }
 
+.textopag{
+  margin-left: 4em;
+  font-weight: 350;
+  font-size: 1.2rem;
+  text-align: left;
+}
 /*PROGRESS BAR SCROLL*/
 /* Style the header: fixed position (always stay at the top) */
 .header {
@@ -445,9 +451,6 @@ top: 0;
 
 }
 
-.calltoaction{
-  width: 20%;
-}
 @media (max-width: 576px){
 
     .calltoaction{
