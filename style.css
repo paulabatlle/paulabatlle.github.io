@@ -57,6 +57,14 @@ h3{
   color:#423434;
 }
 
+h4{
+  font-family: 'Trash';
+  font-size: 3em;
+  margin-top: 2em;
+  margin-left: 1.2em;
+  text-align: left;
+  color:#E9FDFD;
+}
 
 p{
    font-family:'Graphik Light';
@@ -309,6 +317,11 @@ button::-moz-focus-inner {
 .fotoabout{
   width:30%;
   margin-left: 60%;
+}
+
+.star{
+  width:20%;
+  margin-left: 70%;
 }
 
 a{	
