@@ -180,6 +180,27 @@ color:#423434;
 	margin-right: 3em;
 }
 
+/*PROGRESS BAR SCROLL*/
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #423434;
+  width: 0%;
+}
   
 /*--PROYECTOS HOME--*/
 .background-pojects{
@@ -409,11 +430,6 @@ top: 0;
       top: -30%;
       max-width: 5em;
       left: 10%;
-    }
-
-  /*--intento parallax--*/
-    .parallax {
-      background-attachment: scroll;
     }
 
 .frase2{
