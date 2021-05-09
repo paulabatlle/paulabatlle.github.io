@@ -300,6 +300,10 @@ button::-moz-focus-inner {
   -ms-user-select: none;
 } 
 
+.fotoabout{
+  width:30%;
+  margin-left: 60%;
+}
 
 a{	
 	color:#423434;;
