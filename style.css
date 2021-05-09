@@ -359,6 +359,14 @@ a{
   width: 5em;
   }
 
+
+.frasefinal-rosa{
+  background-color: #FF7772;
+  padding:3%;
+  margin-top: 2em;
+  width: 100%;
+  }
+
 .frase2{
   font-family: 'Trash';
   font-size: 3em;
