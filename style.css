@@ -169,7 +169,7 @@ color:#423434;
 
 
 .calltoaction{
-	width: 10em;
+	width: 5%;
 	float: right;
 	margin-top:2em;
 	margin-right: 3em;
@@ -375,8 +375,6 @@ a{
   margin-bottom:2em;
   margin-top: 1em;}
 
-
-
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
 @media (max-width: 39.9375em) {
 .nav {
@@ -415,6 +413,7 @@ top: 0;
   }
 
 
+
 @media (min-width: 40em) {
     .menu-trigger {
       display: none;
@@ -444,6 +443,10 @@ top: 0;
   margin-top: 2em;
 }
 
+}
+
+.calltoaction{
+  width: 20%;
 }
 @media (max-width: 576px){
 
