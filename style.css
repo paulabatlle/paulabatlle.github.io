@@ -189,6 +189,29 @@ color:#423434;
   font-size: 1.2rem;
   text-align: left;
 }
+
+/*BOTON CONTACT ABOUT*/
+.botoncontact{
+  background: #FF7772;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  margin: 30px;
+  margin-top: 25%;
+  font-family: "Trash";
+  font-size: 20px;
+  transition: font-size  1s;
+  border-radius: 30px;
+}
+
+.botoncontact:hover {
+  background:#423434;
+  font-size: 30px;
+  border-radius: 40px;
+}
+
+
 /*PROGRESS BAR SCROLL*/
 /* Style the header: fixed position (always stay at the top) */
 .header {
