@@ -53,6 +53,15 @@ h2{
   color:#E9FDFD;
 }
 
+h3{
+  font-family: 'Trash';
+  font-size: 3em;
+  margin-top: 2em;
+  margin-left: 1.2em;
+  text-align: left;
+  color:#423434;
+}
+
 
 p{
    font-family:'Graphik Light';
@@ -201,8 +210,6 @@ ul {
   background-color: #E9FDFD;
   margin-top:3em;
   padding: 10%;
-  margin-left: 0;
-  margin-right:0;
 }
 
 /*---- IMG HOVER PROJECTS------*/
