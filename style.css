@@ -31,11 +31,6 @@ body{
   cursor: url("/img/cursor2.svg");
 }
 
-html{
-    cursor: url("/img/cursor2.svg"), default;
-}
-
-
 h1{
     font-family: 'Trash';
     font-size: 7.5em;
@@ -205,6 +200,7 @@ color:#423434;
 /*--PROYECTOS HOME--*/
 .background-pojects{
 	z-index: -1;
+  color:#FF7772;
 } 
 
 /*--INCANSABLES--*/
@@ -327,7 +323,6 @@ a{
 .social-links{
 	float: right;
   background-color: #E9FDFD;
-
 }
 
 .bg-container{
