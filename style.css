@@ -98,6 +98,9 @@ ul {
 }
 
 
+.bg-projects{
+  background-color: #E9FDFD;
+}
 /* --------------------------- Header ----------------------------------- */
 
 .header,
@@ -111,8 +114,16 @@ ul {
   justify-content: space-between;
 }
 
-/* --------------------------- Menu ----------------------------------- */
+/* --------------------------- Menu Projects----------------------------------- */
 
+.menu-link-project{
+color:#423434;
+}
+
+.menu-link-project:hover{
+  color:#FF7772;
+}
+/* --------------------------- Menu ----------------------------------- */
 .menu-item {
   padding: 0 1rem;
 }
