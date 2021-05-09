@@ -254,29 +254,6 @@ button::-moz-focus-inner {
 } 
 
 
-/* PROGRESS BAR SCROLL*/
-/* Style the header: fixed position (always stay at the top) */
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #423434;
-  width: 0%;
-}
-
-
 a{	
 	color:#423434;;
 	font-family: 'Trash Medium', 'Montserrat', sans-serif;
