@@ -1,60 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Designer | Paula Batlle</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/assets/app.js"></script>
 
 <body>
-    <nav>
-        <a href="/img/p.svg">Home</a>
-        <ul>
-            <li>
-                <a href="#Home">Projects</a>
-            </li>
-            <li>
-                <a href="#Home">Services</a>
-            </li>
-            <li>
-                <a href="#Home">About</a>
-            </li>
-
-        </ul>
-        <a href="#signup">Sign Up</a>
+    <header>
+       
+        <nav>
+            <img class= "logo" src= "/img/p.svg" href="/index.html"/>
+          
+           
+    
+                <nav class="nav">
+                    <ul class="menu">
+                   
+                      <li class="menu-item"><a class="menu-link" href="/work/projects.html">Projects</a></li>
+                      <li class="menu-item"><a class="menu-link" href="/work/trabajos.html">Services</a></li>
+                      <li class="menu-item"><a class="menu-link" href="/about/about.html">About</a></li>
+                      <li class="menu-item"><a class="menu-link" href="mailto:batllepauladesign@gmail.com">Hello!</a></li>
+                    
+                    </ul>
+              </nav>
+              <button class="menu-trigger js-menu-toggle">
+                <svg class="menu-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M501.333 96H10.667C4.779 96 0 100.779 0 106.667s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667S507.221 96 501.333 96zM501.333 245.333H10.667C4.779 245.333 0 250.112 0 256s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667s-4.78-10.667-10.668-10.667zM501.333 394.667H10.667C4.779 394.667 0 399.445 0 405.333 0 411.221 4.779 416 10.667 416h490.667c5.888 0 10.667-4.779 10.667-10.667-.001-5.888-4.78-10.666-10.668-10.666z" />
+                </svg>
+                <svg class="menu-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001">
+                  <path
+                    d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0014.143 5.857 19.94 19.94 0 0014.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z" />
+                </svg>
+              </button>
+       
     </nav>
 
-    <h1>visual researcher</h1>
+  
+  
+    </header>
+ 
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+      
+      <img class= "calltoaction" src="/img/CallToAction-white.png">
+    <h2> about</h2>
 
+    
+<main class="bg-primary">    
+  <!--FOTOS PROYECTO-->
+      <section class="background-projects">
+        Me atraen las formas y contrastes de los caracteres tipográficos, las combinaciones de colores y la sostenibilidad del packaging. Para mi el diseño tiene que ser estético y ser funcional; el diseño permite explorar más allá y encontrar nuevas perspectivas y conceptos.
 
+        Me apasiona pensar posibles soluciones a través del diseño para ayudar a las personas que nos rodean. Es por lo que siempre estoy dispuesta a cualquier colaboración y creación de oportunidades con personas. Siéntete libre de contactarme. 
+  
+      </section>
+  </main>
+    
+<div class="frasefinal"> 
 
-
+<p class="frase2" href="mailto:batllepauladesign@gmail.com"> Me apasiona ayudar <br> y entender a las <strong>personas. </strong></p>
 
 <footer>
-    <div class="container">
 
-        <div class="row">
-            <div class="col">
-                <a class="footer-email" href="mailto:batllepauladesign@gmail.com">batllepauladesign@gmail.com</a>
-
-            </div>
-            
-
+<section class="bg-container">
             <div class="social-links"> 
-                <a href="https://www.instagram.com/designpaulabatlle/"> <img class="social-icon" src="img/instagram.svg"></a> 
-                <a href="https://www.linkedin.com/in/paulabatllepl"> <img class="social-icon" src="img/linkedin.svg"></a> 
+                <a href="mailto:batllepauladesign@gmail.com"> <img class="social-icon" src="/img/email.svg"></a>
+                <a href="https://www.instagram.com/designpaulabatlle/"> <img class="social-icon" src="/img/instagram.svg"></a> 
+                <a href="https://www.linkedin.com/in/paulabatllepl"> <img class="social-icon" src="/img/linkedin.svg"></a> 
             </div> 
-            
-            
-        </div>
     </div>
-
+</section>
 
 </footer>
+
+<script>
+    // When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+    
+function myFunction() {
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+crossorigin="anonymous"></script>
+<script type="text/javascript"
+src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/app.js"></script>
+    
+
+
 </body>
 
 </html>
