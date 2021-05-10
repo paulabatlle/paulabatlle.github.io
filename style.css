@@ -388,7 +388,7 @@ a{
 
 /*--FOOTER--*/
 .footer{
-	margin-right: 3em;
+	margin-right: 5em;
 }
 
 .footer-email{
@@ -399,7 +399,7 @@ a{
 }
 
 .social-links{
-	float: right;
+	flex: left;
   background-color: #E9FDFD;
 }
 
