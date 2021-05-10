@@ -20,6 +20,10 @@ box-sizing: border-box;
 	src: url(../assets/trash/trash-bold-webfont.woff)}
 
 
+html, body {
+  margin:0;
+}
+
 body {
     font-family: 'Graphik', sans-serif;
     background-color: #FF7772;
@@ -27,8 +31,8 @@ body {
 
 
 /* cursor*/
-body{
-  cursor: url("/img/cursor2.svg");
+body {
+  cursor: url("/img/cursor2.svg") default;
 }
 
 h1{
@@ -400,6 +404,7 @@ a{
 
 .social-links{
 	flex: left;
+  margin-left: 2rem;
   background-color: #E9FDFD;
 }
 
