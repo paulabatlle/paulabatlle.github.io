@@ -184,12 +184,24 @@ color:#423434;
 }
 
 .textopag{
-  margin-left: 4em;
+  margin-left: 6em;
   font-weight: 350;
   font-size: 1.2rem;
   text-align: left;
+  margin-top: 1rem;
+  width: 20rem;
 }
 
+.columns{
+  margin-top: 1rem;
+  width: 20rem;
+  display: inline;
+}
+
+.aboutfoto{
+  width: 100%;
+	
+}
 /*BOTON CONTACT ABOUT*/
 .botoncontact{
   background: #FF7772;
@@ -455,6 +467,11 @@ top: 0;
   }
 
 
+  .columns{
+    margin-top: 1rem;
+    width: 20rem;
+  }
+  
 
 @media (min-width: 40em) {
     .menu-trigger {
