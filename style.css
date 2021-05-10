@@ -204,12 +204,23 @@ color:#423434;
 
 /*PROYECTOS*/
 .impprincipal{
+  width: 100%;
   transition: 0.5s;
 }
 .imgprincipal:hover{
     transform: scale(1.01);
     opacity: 95%;
 }
+
+.textoproyectos{
+    margin-left: 6em;
+    font-weight: 350;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    width: 20rem;
+  }
 
 /*BOTON CONTACT ABOUT*/
 .botoncontact{
