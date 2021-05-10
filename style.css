@@ -200,8 +200,17 @@ color:#423434;
 
 .aboutfoto{
   width: 100%;
-	
 }
+
+/*PROYECTOS*/
+.impprincipal{
+  transition: 0.5s;
+}
+.imgprincipal:hover{
+    transform: scale(1.01);
+    opacity: 95%;
+}
+
 /*BOTON CONTACT ABOUT*/
 .botoncontact{
   background: #FF7772;
