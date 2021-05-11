@@ -219,7 +219,7 @@ color:#423434;
 }
 
 .textoproyectos{
-    margin-left: 6em;
+    margin-left: 4em;
     font-weight: 350;
     font-size: 1.2rem;
     text-align: left;
@@ -410,6 +410,10 @@ a{
   vertical-align: middle;
 }
 
+.fotofullwidth{
+  width: 100%;
+  padding: 0;
+}
 
 /*--FOOTER--*/
 .footer{
