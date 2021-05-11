@@ -228,6 +228,23 @@ color:#423434;
     width: 20rem;
   }
 
+/*texto columnas proyectos*/
+
+.textoproyectos{
+  flex: 50%;
+  font-weight: 300;
+  margin: 2.5em;
+}
+
+.row2 { 
+  display: flex;
+}
+
+.row2:after{
+  content:"";
+  display: table;
+  clear: both;
+}
 /*img final proyecto zoom*/
  
   .img-magnifier-glass {
@@ -534,6 +551,11 @@ top: 0;
     width: 20rem;
   }
   
+  .textoproyectos{
+    width: 100%;
+    font-weight: 300;
+    font-size: 1em;
+  }
 
 @media (min-width: 40em) {
     .menu-trigger {
