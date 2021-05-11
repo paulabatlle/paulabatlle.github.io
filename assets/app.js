@@ -26,6 +26,8 @@ $(document).ready(function () {
       }
     });
   
+
+    
     // Configuración de Librerías
   
     AOS.init();
@@ -66,4 +68,5 @@ $(document).ready(function () {
   $(window).resize(function () {
     $('html').removeClass('menu-is-open');
   });
+  
   
