@@ -232,7 +232,6 @@ color:#423434;
 
 .textoproyectos{
   flex: 50%;
-  font-weight: 300;
   margin: 2.5em;
 }
 
@@ -245,17 +244,15 @@ color:#423434;
   display: table;
   clear: both;
 }
-/*img final proyecto zoom*/
- 
-  .img-magnifier-glass {
-    position: absolute;
-    border: 3px solid #000;
-    border-radius: 50%;
-    cursor: none;
-    /*Set the size of the magnifier glass:*/
-    width: 100px;
-    height: 100px;
-  }
+
+/*next project text*/
+
+.nextproject{
+  text-align: right;
+  font-family: 'Trash Medium';
+  font-size: 1.75em;
+  margin: 2em;
+}
 /*BOTON CONTACT ABOUT*/
 .botoncontact{
   background: #FF7772;
