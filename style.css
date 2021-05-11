@@ -567,7 +567,8 @@ ul{
   width: 20rem;
   }
   
- 
+
+
 
 @media (min-width: 40em) {
     .menu-trigger {
@@ -576,10 +577,12 @@ ul{
   }
   
 @media (max-width: 768px){
-  h1 {
+
+ h1 {
   font-size: 4.2em;
   margin-top: 2em;
   }
+
 .project{
   font-size:1.4em;
   }
@@ -600,15 +603,17 @@ ul{
   margin-top: 2em;
   }
 
-}
+h3{
+  margin-left: 4em;
+  }
 
+  
 @media (max-width: 576px){
 
     .calltoaction{
         width: 7em;
         margin-top:2em;
         margin-right: 3em;}
+    }
 
 
-
-}
