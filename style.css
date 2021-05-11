@@ -228,25 +228,7 @@ color:#423434;
     width: 20rem;
   }
 
-/*texto columnas proyectos*/
 
-.textoproyectos{
-  flex: 50%;
-  padding: 0 4px;
-  vertical-align: middle;
-}
-
-.row2 { 
-  display: flex;
-  flex-wrap: wrap;
-  padding: 4 4px;
-}
-
-.row2:after{
-  content:"";
-  display: table;
-  clear: both;
-}
 
 
 /*next project text*/
@@ -444,6 +426,30 @@ a{
   padding: 0;
 }
 
+/*texto columnas proyectos*/
+
+.textoproyectos{
+  flex: 50%;
+  padding: 0 4px;
+  vertical-align: middle;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.row2 { 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2 4px;
+}
+
+.row2:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
 /*--FOOTER--*/
 .footer{
 	margin-right: 5em;
@@ -525,7 +531,6 @@ a{
   }
 
 .logo{
- 
   margin-left: 0.8em;
   }
 
@@ -538,25 +543,31 @@ ul{
   }
   
 .menu-is-open .nav {
-top: 0;
-  }
-  }
-
-.menu-link:hover {
-    color: #FF7772;
-  }
-
-
-  .columns{
-    margin-top: 1rem;
-    width: 20rem;
+  top: 0;
   }
   
-  .textoproyectos{
-    width: 50%;
-    font-weight: 300;
-    font-size: 1em;
+.menu-link:hover {
+  color: #FF7772;
   }
+
+.textoproyectos{
+  flex: 50%;
+  padding: 0 4px;
+  vertical-align: middle;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1em;
+  }
+  
+
+.columns{
+  margin-top: 1rem;
+  width: 20rem;
+  }
+  
+ 
 
 @media (min-width: 40em) {
     .menu-trigger {
@@ -565,27 +576,29 @@ top: 0;
   }
   
 @media (max-width: 768px){
-    h1 {
-      font-size: 4.2em;
-      margin-top: 2em;
-    }
-    .project{
-      font-size:1.4em;
-    }
-    .project-photo{
-      max-width: 15em;
-    }
-    .project-photo{
-      position: absolute;
-      top: -30%;
-      max-width: 6em;
-      left: 10%;
-    }
+  h1 {
+  font-size: 4.2em;
+  margin-top: 2em;
+  }
+.project{
+  font-size:1.4em;
+  }
+
+.project-photo{
+   max-width: 15em;
+  }
+
+.project-photo{
+  position: absolute;
+  top: -30%;
+  max-width: 6em;
+  left: 10%;
+  }
 
 .frase2{
   font-size: 1.7em;
   margin-top: 2em;
-}
+  }
 
 }
 
