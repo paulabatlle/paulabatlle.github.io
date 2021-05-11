@@ -114,6 +114,7 @@ ul {
 .menu {
   align-items: center;
   display: flex;
+  margin-top: 0.2em;
 
 }
 
@@ -177,6 +178,7 @@ color:#423434;
   z-index: 10;
   width: 2em;
   margin-left:1em;
+  margin-top: 0.2em;
 }
 
 
