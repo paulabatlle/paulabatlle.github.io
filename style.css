@@ -509,19 +509,19 @@ top: 0;
   
 @media (max-width: 768px){
     h1 {
-        font-size: 4.2em;
-        margin-top: 2em;
+      font-size: 4.2em;
+      margin-top: 2em;
     }
     .project{
-      font-size:1.3em;
+      font-size:1.4em;
     }
     .project-photo{
-      max-width: 11em;
+      max-width: 15em;
     }
     .project-photo{
       position: absolute;
       top: -30%;
-      max-width: 5em;
+      max-width: 6em;
       left: 10%;
     }
 
