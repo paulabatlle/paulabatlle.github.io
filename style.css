@@ -229,7 +229,16 @@ color:#423434;
   }
 
 
+.textoservices{
+    margin-left: 4em;
+    font-weight: 350;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    width: 20rem;
 
+}
 
 /*next project text*/
 .nextproject{
@@ -573,11 +582,22 @@ h3{
 }
 
 .textopag{
-  font-size: 0.75em;
-  margin-top: 1rem;
+  margin-left: 3em;
+  font-weight: 250;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 2rem;
   width: 20rem;
 }
 
+.textoservices{
+  margin-left: 2em;
+  font-weight: 250;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 2rem;
+  width: 20rem;
+}
 
 @media (min-width: 40em) {
     .menu-trigger {
