@@ -38,7 +38,7 @@ body {
 h1{
     font-family: 'Trash';
     font-size: 7.5em;
-    margin-top: 2.75em;
+    margin-top: 0.1em;
     text-align: center;
     color:#E9FDFD;
 }
@@ -83,7 +83,8 @@ nav {
 }
 
 .taggs1{
-  margin-top:6em;
+  margin-top:25em;
+  margin-left: 24em;
 }
 
 .taggs2{
@@ -588,8 +589,13 @@ h3{
 
  h1 {
   font-size: 4.2em;
-  margin-top: 2em;
+  margin-top: 0em;
   }
+
+.taggs1{
+  margin-top:15em;
+  margin-left: 4em;
+}
 
 .project{
   font-size:1.4em;
