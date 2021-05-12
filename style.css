@@ -273,9 +273,19 @@ color:#423434;
 }
 
 .textoproyectos{
-    margin-left: 4em;
+    margin-right: 8em;
     font-weight: 250;
     font-size: 1.2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    width: 20rem;
+  }
+
+  .textoproyectos2{
+    margin-right: 8em;
+    font-weight: 250;
+    font-size: 1.1rem;
     text-align: left;
     margin-top: 2rem;
     margin-bottom:2rem;
@@ -577,7 +587,17 @@ ul{
   font-weight: 300;
   font-size: 1em;
   }
-  
+
+  .textoproyectos2{
+    flex: 50%;
+    padding: 0 4px;
+    vertical-align: middle;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 50%;
+    font-weight: 300;
+    font-size: 1em;
+  }
 
 .columns{
   margin-top: 1rem;
