@@ -189,10 +189,7 @@ color:#423434;
   z-index: 10;
 }
 
-.menu-trigger svg {
-  height: 2rem;
-  width: 2rem;
-}
+
 
 .menu-close {
   display: none;
@@ -564,6 +561,10 @@ ul{
   flex-direction:column;
   }
   
+  .menu-trigger svg {
+    height: 2rem;
+    width: 2rem;
+  }
 .menu-link{
   color:#000;
   }
