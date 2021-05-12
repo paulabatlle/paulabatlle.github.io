@@ -232,7 +232,6 @@ color:#423434;
 
 
 /*next project text*/
-
 .nextproject{
   text-align: right;
   font-family: 'Trash Medium';
@@ -546,6 +545,7 @@ ul{
   top: 0;
   }
   
+
 .menu-link:hover {
   color: #FF7772;
   }
