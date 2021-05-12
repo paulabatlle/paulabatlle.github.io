@@ -83,6 +83,9 @@ body {
     background-color: #FF7772;
 }
 
+h1, h2, h3, h4, h5{
+  font-family: 'Trash', 'Space Grotesk', sans-serif;
+}
 
 /* cursor*/
 html {
