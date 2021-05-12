@@ -20,6 +20,60 @@ box-sizing: border-box;
 	src: url(../assets/trash/trash-bold-webfont.woff)}
 
 
+/*RESET ESTILOS BUTTON*/
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+[role='button'],
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* Reset `button` and button-style `input` default styles */
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* Make `a` like a button */
+[role='button'] {
+  color: inherit;
+  cursor: default;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: pre;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+} 
+
+
 html, body, h1{
   margin:0;
 }
@@ -31,7 +85,7 @@ body {
 
 
 /* cursor*/
-body {
+html {
   cursor: url("/img/cursor2.svg") default;
 }
 
@@ -81,33 +135,18 @@ nav {
     justify-content: space-between;
 }
 
-.taggs1{
-  margin-top:20em;
-  margin-left: 24em;
-}
-
-.taggs2{
-  margin-top: 0em;
-  margin-left: 60em;
-  margin-bottom: 10em;
-}
-
 ul,li {
-    display: inline;
-    margin: 0;
-    padding: 0;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 ul {
-    flex: 1;
-    max-width: 50%;
-    display: flex;
-    justify-content: space-evenly;
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-
-.bg-projects{
-  background-color: #E9FDFD;
-}
 /* --------------------------- Header ----------------------------------- */
 
 .header,
@@ -181,6 +220,21 @@ color:#423434;
   margin-top: 0.2em;
 }
 
+
+.taggs1{
+  margin-top:20em;
+  margin-left: 24em;
+}
+
+.taggs2{
+  margin-top: 0em;
+  margin-left: 60em;
+  margin-bottom: 10em;
+}
+
+.bg-projects{
+  background-color: #E9FDFD;
+}
 
 .calltoaction{
 	width: 15%;
@@ -339,61 +393,6 @@ color:#423434;
 	opacity: 1;
 }
 
-
-
-/*RESET ESTILOS BUTTON*/
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-[role='button'],
-input[type='submit'],
-input[type='reset'],
-input[type='button'],
-button {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
-/* Reset `button` and button-style `input` default styles */
-input[type='submit'],
-input[type='reset'],
-input[type='button'],
-button {
-  background: none;
-  border: 0;
-  color: inherit;
-  /* cursor: default; */
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  -webkit-appearance: button; /* for input */
-  -webkit-user-select: none; /* for button */
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-input::-moz-focus-inner,
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-/* Make `a` like a button */
-[role='button'] {
-  color: inherit;
-  cursor: default;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  white-space: pre;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-} 
-
 .fotoabout{
   width:30%;
   margin-left: 60%;
@@ -443,7 +442,7 @@ a{
   vertical-align: middle;
   margin-left: 2em;
   margin-right: 2em;
-  font-weight: 300;
+  font-weight: 250;
   font-size: 1em;
 }
 
@@ -523,6 +522,14 @@ a{
   flex-direction: column;
   margin-bottom:2em;
   margin-top: 1em;}
+
+
+
+
+
+
+
+
 
 /* 640px - 1px * TROBAR COM ALINEARHO EN VERTICAL*/
 @media (max-width: 39.9375em) {
