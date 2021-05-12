@@ -20,7 +20,7 @@ box-sizing: border-box;
 	src: url(../assets/trash/trash-bold-webfont.woff)}
 
 
-html, body {
+html, body, h1{
   margin:0;
 }
 
@@ -38,7 +38,6 @@ body {
 h1{
     font-family: 'Trash';
     font-size: 7.5em;
-    margin-top: 0.1em;
     text-align: center;
     color:#E9FDFD;
 }
@@ -83,13 +82,14 @@ nav {
 }
 
 .taggs1{
-  margin-top:25em;
+  margin-top:20em;
   margin-left: 24em;
 }
 
 .taggs2{
-  text-align: center;
-  margin-top:1em;
+  margin-top: 0em;
+  margin-left: 60em;
+  margin-bottom: 10em;
 }
 
 ul,li {
@@ -592,10 +592,15 @@ h3{
   margin-top: 0em;
   }
 
-.taggs1{
-  margin-top:15em;
-  margin-left: 4em;
-}
+  .taggs1{
+    margin-top:15em;
+    margin-left: 1em;
+  }
+
+  .taggs2{
+    margin-bottom:8em;
+    margin-left: 1em;
+  }
 
 .project{
   font-size:1.4em;
