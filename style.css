@@ -577,12 +577,12 @@ ul{
   }
   
 h3{
-  font-size: 2em;
-  margin-left:0em;
+  font-size: 1.8em;
+  margin-left: 1.1em;
 }
 
 .textopag{
-  margin-left: 3em;
+  margin-left: 1.1em;
   font-weight: 250;
   font-size: 1rem;
   text-align: left;
@@ -591,12 +591,16 @@ h3{
 }
 
 .textoservices{
-  margin-left: 2em;
+  margin-left: 1.1em;
   font-weight: 250;
   font-size: 1rem;
   text-align: left;
   margin-top: 2rem;
   width: 20rem;
+}
+
+.star{
+  margin-left: 5em;
 }
 
 @media (min-width: 40em) {
@@ -641,10 +645,6 @@ h3{
 .frase2{
   font-size: 1.7em;
   margin-top: 2em;
-  }
-
-h3{
-  margin-left: 4em;
   }
 
   
