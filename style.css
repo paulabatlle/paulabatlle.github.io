@@ -588,18 +588,19 @@ h3{
 @media (max-width: 768px){
 
  h1 {
-  font-size: 4.2em;
+  font-size: 4.4em;
   margin-top: 0em;
   }
 
   .taggs1{
-    margin-top:15em;
-    margin-left: 1em;
+    margin-top:16em;
+    margin-left: 6em;
   }
 
   .taggs2{
     margin-bottom:8em;
-    margin-left: 1em;
+    margin-top: 1.8em;
+    margin-left: 6em;
   }
 
 .project{
