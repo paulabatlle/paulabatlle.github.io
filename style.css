@@ -100,7 +100,7 @@ h1{
 }
 
 h2{
-  font-family: 'Trash';
+  font-family: 'Trash, 'Space Grotesk', sans-serif;
   font-size: 3.3em;
   margin-top: 1em;
   margin-left: 1.2em;
@@ -109,7 +109,7 @@ h2{
 }
 
 h3{
-  font-family: 'Trash';
+  font-family: 'Trash', 'Space Grotesk', sans-serif;
   font-size: 3em;
   margin-top: 2em;
   margin-left: 1.2em;
@@ -118,7 +118,7 @@ h3{
 }
 
 h4{
-  font-family: 'Trash';
+  font-family: 'Trash', 'Space Grotesk', sans-serif;;
   font-size: 3em;
   margin-top: 2em;
   margin-left: 1.2em;
